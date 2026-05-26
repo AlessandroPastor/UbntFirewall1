@@ -1,0 +1,16 @@
+[Unit]
+Description=AI Firewall Engine
+After=network.target nftables.service
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /home/pastor/firewall-ia-lab/ai_firewall.py
+Restart=on-failure
+RestartSec=5
+User=root
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
+
