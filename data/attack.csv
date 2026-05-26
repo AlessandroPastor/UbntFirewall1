@@ -1,0 +1,2 @@
+src_ip,total_pkts,tcp_pkts,udp_pkts,other_pkts,unique_dports_count,syn_ratio,avg_pkt_size,duration_sec,bytes_per_sec,port_scan_score,small_syn_score,potential_flood,potential_scan,label
+192.168.1.50,24134270,24134253,0,17,65535,0.7194,60.0,0,0,0.0027,119.9082,1,1,attack

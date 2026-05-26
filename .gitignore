@@ -1,0 +1,5 @@
+data/*.pcap
+data/log_*.txt
+__pycache__/
+*.pyc
+nohup.out
